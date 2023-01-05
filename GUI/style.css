@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.cmdBox{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+#cmd{
+    border: 2px solid black;
+    /* height: 0em; */
+    padding: 0.5em;
+    margin: 1em;
+    margin-right: 0;
+    border-radius: 10px;
+}
+#cmd:focus{
+    outline: 1px solid black;
+}
+#cmdBtn{
+    background-color: darkgrey;
+    margin: 1em;
+    margin-left: 1;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}
+#cmdBtn:hover{
+    background-color: gray;
+    color: white;
+}
+.chat-holder{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 30px;
+    bottom: 2.5em;
+    right : 0.5em;
+    left: 0.5em;
+    background-color: aliceblue;
+    /* height: fit-content; */
+    padding: 2%;
+    /* margin : 1%; */
+    margin-right: 25px;
+    border-radius: 1em;
+}
+.comp {
+    margin: 0.2em;
+    padding: 0.5em;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: black;
+    color: white;
+
+}
+.user{
+    margin: 0.2em;
+    padding: 0.5em;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: white;
+}
+.clr{
+    position: absolute;
+    right:0.5em;
+    bottom: 0.5em;
+    border: 1px solid white;
+    padding: 0.2em;
+    background-color: palegreen;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+.clr:hover{
+    background-color: green;
+    color: white;
+}
+.chat-holder em{
+    text-align: center;
+    color: gray;
+}
